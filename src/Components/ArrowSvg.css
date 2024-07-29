@@ -1,0 +1,33 @@
+.arrow-svg {
+    width: 10rem;
+    height: fit-content;
+    margin-bottom: -2rem;
+    margin-left: 2rem;
+}
+
+@media (orientation: landscape) and (max-width: 1610px) {
+    .arrow-svg {
+        width: 9rem;
+        height: fit-content;
+        margin-bottom: -2rem;
+        margin-left: 1.4rem;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-width: 1200px) {
+    .arrow-svg {
+        width: 8rem;
+        height: fit-content;
+        margin-bottom: -1.5rem;
+        margin-left: 1rem;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .arrow-svg {
+        width: 7rem;
+        height: fit-content;
+        margin-bottom: -1.5rem;
+        margin-left: 1rem;
+    }
+  }
