@@ -26,7 +26,7 @@ const ContactsPage = () => {
   };
 
   const handleInstagramClick = () => {
-    window.open('https://www.instagram.com/peterhssousa/', '_blank');
+    window.open('https://www.instagram.com/pedrohssousa_/', '_blank');
   };
 
 
