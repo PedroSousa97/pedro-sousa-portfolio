@@ -106,7 +106,7 @@ const CareerPage = () => {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="June 2022 - Present"
+                date="June 2022 - November 2024"
                 iconStyle={{ background: 'rgb(204,125,60)', color: '#fff' }}
                 icon={<StarIcon />}
               >
@@ -133,6 +133,62 @@ const CareerPage = () => {
                   </li>
               </ul>
 
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="November 2024 - Present"
+                iconStyle={{ background: 'rgb(204,125,60)', color: '#fff' }}
+                icon={<StarIcon />}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  Software Engineer & Dev Lead
+                </h3>
+
+                <h4 className="vertical-timeline-element-subtitle">
+                  Envision Pharma Group, Full Remote
+                </h4>
+
+                <ul className="vertical-timeline-element-unordered-list">
+                  <li>
+                    <p className="vertical-timeline-element-paragraph">
+                      Joined one of EPG's product teams as a Full-Stack Software Engineer.
+                    </p>
+
+                    <p className="vertical-timeline-element-paragraph">
+                      Stack: Node.js, Express, PostgreSQL, Redis, BullMQ, Knex, AWS, Vue.js, Vuetify, Git, Cursor, and other modern development tools.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p className="vertical-timeline-element-paragraph">
+                      Contributed as a supporting Software Engineer for a newly formed product development team while continuing to work on my primary product.
+                    </p>
+
+                    <p className="vertical-timeline-element-paragraph">
+                      Later became the main engineering point of contact for customer support, responsible for investigating and resolving customer-reported issues, managing support requests, and coordinating ticket prioritization.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p className="vertical-timeline-element-paragraph">
+                      Promoted to Development Lead in April 2026.
+                    </p>
+
+                    <p className="vertical-timeline-element-paragraph">
+                      In addition to software development responsibilities, I actively contribute to product strategy, architectural decisions, and the overall technical direction of the platform.
+                    </p>
+
+                    <p className="vertical-timeline-element-paragraph">
+                      I work closely with product team and customers to help define priorities, manage the product roadmap, and ensure successful delivery of business requirements.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p className="vertical-timeline-element-paragraph">
+                      Regularly participate in technical interview processes and mentor newly hired Software Engineers, supporting their onboarding and professional growth.
+                    </p>
+                  </li>
+                </ul>
               </VerticalTimelineElement>
             </VerticalTimeline>
             </div>
